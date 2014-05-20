@@ -1,7 +1,7 @@
 {
       "name"                                : "ee-soa"
     , "description"                         : "A Framework for Service Oriented Applications"
-    , "version"                             : "0.1.0"
+    , "version"                             : "0.1.1"
     , "homepage"                            : "https://github.com/eventEmitter/ee-soa"
     , "author"                              : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                             : "mit"
