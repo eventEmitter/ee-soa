@@ -46,6 +46,7 @@
 					return ['test'];
 				}
 				, on: function(){}
+				, controller: 'test'
 			});
 		});
 
