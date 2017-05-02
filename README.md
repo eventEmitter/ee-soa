@@ -1,5 +1,7 @@
 # ee-soa
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-soa.svg)](https://greenkeeper.io/)
+
 A Framework for Service Oriented Applications
 
 ## installation
