@@ -1,42 +1,42 @@
 {
-      "name"                                : "ee-soa"
-    , "description"                         : "A Framework for Service Oriented Applications"
-    , "version"                             : "1.0.0"
-    , "homepage"                            : "https://github.com/eventEmitter/ee-soa"
-    , "author"                              : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
-    , "licence"                             : "mit"
-    , "repository": {
-          "url"                             : "https://github.com/eventEmitter/ee-soa.git"
-        , "type"                            : "git"
-    }
-    , "engines": {
-        "node"                              : ">=6"
-    }
-    , "bugs": {
-        "url"                               : "https://github.com/eventEmitter/ee-soa/issues"
-    }
-    , "dependencies": {
-          "ee-class"                        : "1.x"
-        , "ee-soa-service-manager"          : "1.x"
-        , "ee-types"                        : "2.x"
-        , "ee-event-emitter"                : "0.3.x"
-        , "ee-log"                          : "0.3.x"
-        , "semver"                          : "2.2.x"
-        , "ee-soa-discoverymanager"         : "0.1.x"
-        , "ee-soa-transportmanager"         : "0.1.x"
-        , "ee-soa-transport-local"          : "0.1.x"
-        , "ee-soa-discovery-response"       : "0.1.x"
-    }
-    , "devDependencies": {
-          "mocha"                           : "2.x"
-        , "ee-soa-transport-local"          : "0.1.x"
-        , "ee-soa-discovery-sameprocess"    : "0.1.x"
-        , "ee-soa-request"                  : "0.2.x"
-        , "ee-soa-response"                 : "0.1.x"
-    }
-    , "optionalDependencies": {}
-    , "keywords"                            : ["soa", "service oriented architecture"]
-    , "scripts": {
-        "test"                              : "./node_modules/mocha/bin/mocha --reporter spec"
+    "name": "ee-soa",
+    "description": "A Framework for Service Oriented Applications",
+    "version": "1.0.1",
+    "homepage": "https://github.com/eventEmitter/ee-soa",
+    "author": "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)",
+    "license": "mit",
+    "repository": {
+        "url": "https://github.com/eventEmitter/ee-soa.git",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/eventEmitter/ee-soa/issues"
+    },
+    "dependencies": {
+        "ee-class": "1.x",
+        "ee-event-emitter": "0.3.x",
+        "ee-log": "^3.0.6",
+        "ee-soa-discovery-response": "0.1.x",
+        "ee-soa-discoverymanager": "0.1.x",
+        "ee-soa-service-manager": "1.x",
+        "ee-soa-transport-local": "0.1.x",
+        "ee-soa-transportmanager": "0.1.x",
+        "ee-types": "2.x",
+        "semver": "^5.5.0"
+    },
+    "devDependencies": {
+        "ee-soa-discovery-sameprocess": "0.1.x",
+        "ee-soa-request": "0.2.x",
+        "ee-soa-response": "0.1.x",
+        "ee-soa-transport-local": "0.1.x",
+        "mocha": "^5.2.0"
+    },
+    "optionalDependencies": {},
+    "keywords": [
+        "soa",
+        "service oriented architecture"
+    ],
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha --reporter spec"
     }
 }
